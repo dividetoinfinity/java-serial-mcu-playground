@@ -1,0 +1,104 @@
+void offcuts() {
+//        import java.util.Arrays;
+//        import org.json.simple.JSONObject;
+//import org.json.simple.parser.JSONParser;
+//        import com.fasterxml.jackson.core.JsonEncoding;
+//import com.fasterxml.jackson.core.JsonFactory;
+//import com.fasterxml.jackson.core.JsonGenerator;
+        // private static final SemiBlockingStreamSerialApp instance = new SemiBlockingStreamSerialApp();
+        //    public SemiBlockingStreamSerialApp getInstance() {
+//        synchronized (instance) {
+//            return instance;
+//        }
+//
+//    }
+        // System.out.println(Arrays.asList(SerialPort.getCommPorts()));
+//            System.out.println("Setting baud rate: " +
+//                    BaudRate.BAUD_RATE_9600 + " " +
+//                    BaudRate.BAUD_RATE_9600.ordinal() + " " +
+//                    BaudRate.BAUD_RATE_9600.getBaudRate()
+//            );
+        // System.out.println("\n" + serial.getSystemPortName());
+
+//                char temp = (char) in.read();
+//                System.out.print(temp);
+        // When jSerialComm loads receives input from an MCU
+        // it misreads the first string received and this needs to be filtered
+        // before getting passed into the JSON Parser.
+
+        // Google JSON Simple library
+        // TODO: Filter the input to the InputStreamReader, validate the incoming JSON
+//                JSONParser jsonParser = new JSONParser();
+//                System.out.println("Google Simple JSON Parser: ");
+//                System.out.println(in.read());
+//                JSONObject jsonObject = (JSONObject) jsonParser.parse(
+//                        new InputStreamReader(in, StandardCharsets.UTF_8)
+//                );
+
+        // Jackson JSONFactory and JsonGenerator
+//                JsonFactory jsonFactory = new JsonFactory();
+//                JsonGenerator jsonGenerator = jsonFactory
+//                        .createGenerator((DataOutput) in, JsonEncoding.UTF8);
+
+//                String s = String.valueOf(in.read());
+//                System.out.println(s);
+
+
+
+        // And open the handle to the OutputStream
+
+        // Sample Object Representing the State of an IoT Device
+        // IoTDevice device = new IoTDevice("Arduino Uno R3", "PIN_13", true);
+
+        // Convert Object to JSON String
+        // Prettified
+//            try {
+//                String jsonString = objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(device);
+//            } catch (JsonProcessingException e) {
+//                throw new RuntimeException(e);
+//            }
+        // Standard Mustache
+//            try {
+//                String jsonString = objectMapper.writeValueAsString(device);
+//            } catch (JsonProcessingException e) {
+//                throw new RuntimeException(e);
+//            }
+        // System.out.println(jsonString);
+
+        // OutputStream
+        // byte[] buffer = jsonString.getBytes(StandardCharsets.UTF_8);
+
+
+//                try {
+//                    out.write('A'); // ASCII Key code 65
+//                } catch (IOException e) {
+//                    throw new RuntimeException(e);
+//                }
+        // Create Controls to alter the update frequency, Queue data between updates if needed
+//                try {
+//                    // out.write(buffer, 0, buffer.length);
+//                } catch (IOException e) {
+//                    throw new RuntimeException(e);
+//                }
+//                try {
+//                    out.flush();
+//                } catch (IOException e) {
+//                    throw new RuntimeException(e);
+//                }
+//                try {
+//                    out.close();
+//                } catch (IOException e) {
+//                    throw new RuntimeException(e);
+//                }
+        //                try {
+//                    out.write('A'); // ASCII Key code 65
+//                } catch (IOException e) {
+//                    throw new RuntimeException(e);
+//                }
+
+        // Read from the serial port first
+        // read = true;
+        // Stop the serialRead callback
+        // read = false;
+        // scheduler.shutdown();
+    }
